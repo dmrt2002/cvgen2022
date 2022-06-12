@@ -68,8 +68,6 @@ exports.registerNewUser = async (req, res) => {
             city: detail.city,
             pincode: detail.pincode,
             phone: detail.phone,
-            portfolio: detail.portfolio,
-            linkedin: detail.linkedin
           }
         },
       });
